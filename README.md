@@ -16,7 +16,7 @@ Hosting on Glitch is simple! Simply click [here](https://glitch.com/edit/#!/remi
 Self-hosted instances
 ========
 Meanwhile, self-hosting your own instance is trickier than using the using the public instance or hosting with Glitch.
-
+**!CRITICAL! MAKE SURE PORT 3000 IS ALWAYS OPEN (or open when Express Router is being used) SO EXPRESS ROUTER CAN HOST A WEBSERVER!**
 **__PREREQUISITES AND DEPENDENCIES__**
 - Node 8.x or higher
 - pm2 or nodemon (optional, recommended for always-on setups)
@@ -29,4 +29,4 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 2. Run in the terminal ``npm install`` in the directory where the repository download / local clone is located.
 3. In the terminal again, run ``node index.js``.
 4. Set up your desired Node process manager like pm2 or nodemon (OPTIONAL).
-
+5. You're all set!
