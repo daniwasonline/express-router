@@ -1,0 +1,19 @@
+{
+  "name": "Express Router",
+  "version": "1.0.1",
+  "description": "Directs traffic through a simple server (does not have user-tracking or cookies, just a simple traffic redirector) using Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/BeanedTaco/express-router"
+  },
+  "license": "MIT"
+}
