@@ -78,6 +78,7 @@ app.get("/route/youtube/org=EU", function(request, response) {
 // Below are additions for v1.0.2
 
 
-const listener = app.listen(process.env.PORT, function() {
-  console.log("Your app is listening on port " + listener.address().port);
-});
+const port = 3000
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
