@@ -33,7 +33,7 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
   
  - 1b. Download from website: Above the latest commit message, click the green button that says "Clone or download", then click "Download ZIP"
   
--  1c. Or, you can use the batch script.
+-  1c. Or, you can use the [batch script](https://github.com/BeanedTaco/express-router/releases).
   
 2. Run in the terminal ``npm install express`` in the directory where the repository download / local clone is located.
 3. In the terminal again, run ``node index.js``.
