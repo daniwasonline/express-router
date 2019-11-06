@@ -23,7 +23,7 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 
 **__PREREQUISITES AND DEPENDENCIES__**
 - Node 8.x or higher
-- pm2 or nodemon (optional, recommended for always-on setups)
+- pm2, nodemon, or another process manager (optional, recommended for always-on setups)
 - Port forwarding (Not needed if hosted on a VPS or similar; Also not needed if the instance is only being used locally)
 
 **Option 1: (WINDOWS ONLY) Using the batch installer**
