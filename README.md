@@ -16,7 +16,9 @@ Hosting on Glitch is simple! Simply click [here](https://glitch.com/edit/#!/remi
 Self-hosted instances
 ========
 Meanwhile, self-hosting your own instance is trickier than using the using the public instance or hosting with Glitch.
-**!CRITICAL! MAKE SURE PORT 3000 IS ALWAYS OPEN (or open when Express Router is being used) SO EXPRESS ROUTER CAN HOST A WEBSERVER!**
+
+
+(**!CRITICAL! MAKE SURE PORT 3000 IS ALWAYS OPEN (or open when Express Router is being used) SO EXPRESS ROUTER CAN HOST A WEBSERVER!**)
 
 
 **__PREREQUISITES AND DEPENDENCIES__**
