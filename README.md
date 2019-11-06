@@ -17,6 +17,8 @@ Self-hosted instances
 ========
 Meanwhile, self-hosting your own instance is trickier than using the using the public instance or hosting with Glitch.
 **!CRITICAL! MAKE SURE PORT 3000 IS ALWAYS OPEN (or open when Express Router is being used) SO EXPRESS ROUTER CAN HOST A WEBSERVER!**
+
+
 **__PREREQUISITES AND DEPENDENCIES__**
 - Node 8.x or higher
 - pm2 or nodemon (optional, recommended for always-on setups)
