@@ -36,9 +36,9 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 **Option 2: Self-compiling and manually running**
 - 1. Download the repository
 
- - 1 a. Use git-scm: In terminal, ``git clone https://github.com/BeanedTaco/express-router.git`` in your desired directory
+ - i-A. Use git-scm: In terminal, ``git clone https://github.com/BeanedTaco/express-router.git`` in your desired directory
   
- - 1 b. Download from website: Above the latest commit message, click the green button that says "Clone or download", then click "Download ZIP"
+ - i-B. Download from website: Above the latest commit message, click the green button that says "Clone or download", then click "Download ZIP"
 - 2. If you downloaded from ZIP, extract the file to the directory of your choice.
 - 3. Run in the terminal ``npm install express`` in the directory where the repository download / local clone is located.
 - 4. In the terminal again, run ``node index.js``.
