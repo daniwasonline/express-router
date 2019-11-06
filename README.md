@@ -26,16 +26,21 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 - pm2 or nodemon (optional, recommended for always-on setups)
 - Port forwarding (Not needed if hosted on a VPS or similar; Also not needed if the instance is only being used locally)
 
-**__HOW TO SETUP__**
-1. Download the repository
+**Option 1: (WINDOWS ONLY) Using the batch installer**
+- 1. Download the [batch installer here](https://github.com/BeanedTaco/express-router/releases) and extract the zip file to the place of your choice.
+- 2. Run the script and wait for the batch installer to finish running. Router Express should be in a folder called router-express or express-router. 
+- 3. If you encounter an error at the end (a dialog will show up), manually run ``npm install express`` in cmd, directory set to the router-express/express-router folder.
+- 4. You can run Router Express by running ``node index.js`` in cmd, directory still set to the router-express/express-router folder.
+- 5. If you want to, you can setup pm2, nodemon, or another process manager to automatically run Router Express.
+
+**Option 2: Self-compiling and manually running**
+- 1. Download the repository
 
  - 1a. Use git-scm: In terminal, ``git clone https://github.com/BeanedTaco/express-router.git`` in your desired directory
   
  - 1b. Download from website: Above the latest commit message, click the green button that says "Clone or download", then click "Download ZIP"
-  
--  1c. Or, you can use the [batch script](https://github.com/BeanedTaco/express-router/releases).
-  
-2. Run in the terminal ``npm install express`` in the directory where the repository download / local clone is located.
-3. In the terminal again, run ``node index.js``.
-4. Set up your desired Node process manager like pm2 or nodemon (OPTIONAL).
-5. You're all set!
+- 2. If you downloaded from ZIP, extract the file to the directory of your choice.
+- 3. Run in the terminal ``npm install express`` in the directory where the repository download / local clone is located.
+- 4. In the terminal again, run ``node index.js``.
+- 5. Set up your desired Node process manager like pm2 or nodemon (OPTIONAL).
+- 6. You're all set!
