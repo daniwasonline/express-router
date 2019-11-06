@@ -1,6 +1,6 @@
 {
   "name": "ExpressRouter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Directs traffic through a simple server (does not have user-tracking or cookies, just a simple traffic redirector) using Express.js.",
   "main": "index.js",
   "scripts": {
