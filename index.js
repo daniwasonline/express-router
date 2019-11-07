@@ -5,7 +5,7 @@ app.use(express.static("src"));
 
 
 app.get("/", function(request, response) {
-  response.sendFile(__dirname + "/src/index.html");
+  response.sendFile(__dirname + "/html/index.html");
 });
 
 app.get("/route/discord", function(request, response) {
