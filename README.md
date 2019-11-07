@@ -29,8 +29,8 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 **Option 1: (WINDOWS ONLY) Using the batch installer**
 - 1. Download the [universal installer here](https://github.com/BeanedTaco/express-router/releases).
 - 2. Run the executable and wait for the batch installer to finish running. Router Express's  should be in a folder called express-router. 
-- 4. You can run Router Express by running ``node index.js`` in cmd, directory still set to the router-express/express-router folder.
-- 5. If you want to, you can setup pm2, nodemon, or another process manager to automatically run Router Express.
+- 3. You can run Router Express by running ``node index.js`` in cmd, directory still set to the router-express/express-router folder.
+- 4. If you want to, you can setup pm2, nodemon, or another process manager to automatically run Router Express.
 
 **Option 2: Self-compiling and manually running**
 - 1. Download the repository
