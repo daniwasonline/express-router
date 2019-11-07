@@ -23,5 +23,5 @@ For LTS releases, the timer works the same like normal releases, but LTS release
 
 1.0.1 - :x: (Given an immediate EOL)
 
-## Reporting an issue
-To report an issue, submit an issue with [SECURITY] in the front of the title. **Vulnerabilities and app-breaking bugs are higher priority than minor bugs**.
+## Reporting a vulnerability/issue
+To report an vulnerability/issue, submit an issue with the VULNERABILITY label. **Vulnerabilities and app-breaking bugs are higher priority than minor bugs**.
