@@ -18,7 +18,9 @@ For LTS releases, the timer works the same like normal releases, but LTS release
 ## Supported versions of Express Router
 
 1.0.2 - :heavy_check_mark: (EOL timer has not begun)
+
 1.0.1.1 - :heavy_check_mark: (EOL timer was halted)
+
 1.0.1 - :x: (Given an immediate EOL)
 
 ## Reporting an issue
