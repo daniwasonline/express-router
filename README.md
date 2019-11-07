@@ -27,9 +27,8 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 - Port forwarding (Not needed if hosted on a VPS or similar; Also not needed if the instance is only being used locally)
 
 **Option 1: (WINDOWS ONLY) Using the batch installer**
-- 1. Download the [batch installer here](https://github.com/BeanedTaco/express-router/releases) and extract the zip file to the place of your choice.
-- 2. Run the script and wait for the batch installer to finish running. Router Express should be in a folder called router-express or express-router. 
-- 3. If you encounter an error at the end (a dialog will show up), manually run ``npm install express`` in cmd, directory set to the router-express/express-router folder.
+- 1. Download the [universal installer here](https://github.com/BeanedTaco/express-router/releases).
+- 2. Run the executable and wait for the batch installer to finish running. Router Express's  should be in a folder called express-router. 
 - 4. You can run Router Express by running ``node index.js`` in cmd, directory still set to the router-express/express-router folder.
 - 5. If you want to, you can setup pm2, nodemon, or another process manager to automatically run Router Express.
 
