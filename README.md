@@ -11,7 +11,7 @@ index.js is an exact copy of the public instance's index.js (as of 4 November 20
 
 Hosting with Glitch
 ========
-Hosting on Glitch is simple! Simply click [here](https://glitch.com/edit/#!/remix/router-express) and an instance of Express Router will automatically be created for you, with the most up-to-date versions of the instance files (as of the time that you forked/remixed the instance). **Hosting an instance with Glitch is the best option if you want best of both worlds, because you will be getting both customization options** ***and*** **a up-to-date base instance at the time of your fork/remix. If you want to update your index.js file to have the newest redirections, you can click [here](https://glitch.com/edit/#!/router-express?path=index.js:81:0) and copy the newest additions (the additions will be labelled) to your file.**
+Hosting on Glitch is simple! Simply click [here](https://glitch.com/edit/#!/remix/router-express) and an instance of Express Router will automatically be created for you, with the most up-to-date versions of the instance files (as of the time that you forked/remixed the instance). **Hosting an instance with Glitch is the best option if you want best of both worlds, because you will be getting both customization options** ***and*** **an up-to-date base instance at the time of your fork/remix. If you want to update your index.js file to have the newest redirections, you can click [here](https://glitch.com/edit/#!/router-express?path=index.js:81:0) and copy the newest additions (the additions will be labelled) to your file.**
 
 Self-hosted instances
 ========
