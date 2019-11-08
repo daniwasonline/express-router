@@ -18,7 +18,7 @@ Self-hosted instances
 Meanwhile, self-hosting your own instance is trickier than using the using the public instance or hosting with Glitch.
 
 
-(**!CRITICAL! MAKE SURE PORT 3000 IS ALWAYS OPEN (or open when Express Router is being used) SO EXPRESS ROUTER CAN HOST A WEBSERVER!**)
+(**!CRITICAL! EITHER MAKE SURE PORT 3000 IS OPEN FOR EXPRESS ROUTER, OR CONFIGURE THE LISTENER TO A DIFFERENT PORT.**)
 
 
 **__PREREQUISITES AND DEPENDENCIES__**
@@ -31,6 +31,7 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 - 2. Run the executable and wait for the batch installer to finish running. Router Express's  should be in a folder called express-router. 
 - 3. You can run Router Express by running ``node index.js`` in cmd, directory still set to the router-express/express-router folder.
 - 4. If you want to, you can setup pm2, nodemon, or another process manager to automatically run Router Express.
+- 5. **UNLESS IF PROPERLY CONFIGURED, EXPRESS ROUTER NEEDS TO BE ACCESSED FROM 127.0.0.1:3000 BY DEFAULT! IF YOU CHANGED THE LISTENER SO IT LISTENS ON A DIFFERENT PORT, YOU WOULD ACCESS IT FROM 127.0.0.1:(PORT HERE)!**
 
 **Option 2: Self-compiling and manually running**
 - 1. Download the repository
@@ -42,4 +43,4 @@ Meanwhile, self-hosting your own instance is trickier than using the using the p
 - 3. Run in the terminal ``npm install express`` in the directory where the repository download / local clone is located.
 - 4. In the terminal again, run ``node index.js``.
 - 5. Set up your desired Node process manager like pm2 or nodemon (OPTIONAL).
-- 6. You're all set!
+- 6. **UNLESS IF PROPERLY CONFIGURED, EXPRESS ROUTER NEEDS TO BE ACCESSED FROM 127.0.0.1:3000 BY DEFAULT! IF YOU CHANGED THE LISTENER SO IT LISTENS ON A DIFFERENT PORT, YOU WOULD ACCESS IT FROM 127.0.0.1:(PORT HERE)!**
