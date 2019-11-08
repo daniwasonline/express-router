@@ -1,6 +1,8 @@
 Router Express
 ========
-Directs traffic through a simple server (does not have user-tracking or cookies, just a simple traffic redirector) using Express.js.
+Directs traffic through a simple server (no user-tracking or cookies) using Express.js.
+
+*In the future, I plan to create an analytics app for Express Router, so you can see how many users are using your links.*
 
 Using the public instance
 ========
