@@ -7,3 +7,4 @@ Directs traffic through a simple server (no user-tracking or cookies) using Expr
 ## Important Information
 ### [Wiki](https://github.com/BeanedTaco/express-router/wiki)
 ### [Installing Router Express](https://github.com/BeanedTaco/express-router/wiki/Installing-Express-Router)
+### [Pull requests and Issues](https://github.com/BeanedTaco/express-router/wiki/How-to-report-issues-&-submit-pull-requests)
