@@ -1,4 +1,4 @@
-Express Router
+Router Express
 ========
 Directs traffic through a simple server (does not have user-tracking or cookies, just a simple traffic redirector) using Express.js.
 
@@ -7,7 +7,7 @@ Using the public instance
 The public instance is hosted on https://router-express.glitch.me (though going to the root of this domain redirects you to Glitch). This instance is limited, and if you would like customizable redirects, I would recommend going self-hosted or through Glitch.
 
 **__INCLUDED REDIRECTS WITH THE PUBLIC INSTANCE__**
-index.js is an exact copy of the public instance's index.js (as of 4 November 2019), so see that file to check the list of included redirects.
+Check [this](https://glitch.com/edit/#!/router-express?path=index.js:81:0) to see the included redirects with the public instance of Router Express.
 
 Hosting with Glitch
 ========
